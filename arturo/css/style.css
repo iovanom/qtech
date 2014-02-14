@@ -1,0 +1,51 @@
+#main-menu{
+	margin-bottom: 0px;
+}
+#main-menu > ul > li {
+	
+	position: relative;
+	
+}
+
+.navigation-item:first-child ul.dropdown-menu {
+	left: -10px;
+}
+
+ul.dropdown-menu {
+	position: absolute;
+	padding: 0;
+	width: 150px;
+	/*left: -9999px;*/
+	top: 25px;
+	display: none;
+	z-index: 200;
+	padding-top: 15px;
+	
+	
+}
+
+ul.dropdown-menu li {
+	width: 100%;
+	
+}
+
+ul.dropdown-menu:first-child li{
+	margin-top: 15px;
+}
+
+
+
+ul.dropdown-menu a {
+	padding: 4px;
+	margin-bottom: 2px;
+	font-size: 12px;
+	font-weight: 100;
+	z-index: 100;
+	background: #fff;
+	
+}
+
+#main-menu > ul > li:hover ul.dropdown-menu{
+	display: block;
+	
+}

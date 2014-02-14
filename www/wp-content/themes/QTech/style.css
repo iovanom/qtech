@@ -1,0 +1,126 @@
+/*
+Theme Name: QTech
+Theme URI: qtech.md
+Description: 
+Version: 1.0
+Author: ivan majeru
+Author Mail: ivanmajeru@gmail.com
+License: GNU General Public License v2 or later
+License URI: http://www.gnu.org/licenses/gpl-2.0.html
+Tags: 
+Text Domain: 
+*/
+
+.alignright {
+    float: right;
+}
+
+.alignleft {
+    float: left;
+}
+
+#box-header {
+	position: relative;
+}
+
+#box-header .text-box-header {
+	position: absolute;
+	bottom: 5px;
+	padding: 25px;
+}
+
+#box-header .text-box-header h1 {
+   color: #990000;
+   font-size: 25px;
+   background: white;
+   padding: 10px 25px;
+   border: 1px solid #990000;
+}
+
+#box-header .text-box-header p {
+	font-size: 12px;
+}
+
+#fuxradTable table {
+	border-collapse: collapse;
+}
+
+#fuxradTable td {
+	border-bottom: 2px solid #666666;
+	padding: 10px;
+}
+
+#fuxradTable img{
+	height: 100px;
+}
+
+#fuxradTable .price {
+	color: #ff6666;
+	font-size: 18px;
+	font-weight: bold;
+}
+
+#default-page {
+	background: none repeat scroll 0 0 #FFFFFF;
+    border-left: 1px solid #DDDDDD;
+    border-right: 1px solid #DDDDDD;
+    float: left;
+    margin: 10px 10px 10px 0;
+    overflow: hidden;
+    padding: 12px 17px;
+}
+
+.cat-3col {
+    width: 220px;
+    height: 300px;
+    float: left;
+    margin-right: 6px;
+}
+
+.cat-3col img{
+    width: 220px;
+    height: 220px;
+}
+
+.cat-3col h2 {
+    color: #990000;
+    margin: 0;
+    font-size: 12px;
+    text-align: center;
+}
+
+.cat-1col {
+    
+    margin-bottom: 25px;
+    margin-right: 25px;
+}
+
+.cat-1col h2{
+    color: #990000;
+}
+
+.cat-1col img {
+    float: left;
+    width: 100px;
+    height: 100px;
+    margin-right: 25px;
+}
+
+.cat-1col .content-category {
+    float: right;
+}
+
+.cat-1col .more-link {
+    display: block;
+    text-align: right;
+    padding-right: 50px;
+}
+
+.page-content p {
+    padding-bottom: 5px;
+}
+
+.page-content li {
+    padding-bottom: 8px;
+    list-style: circle;
+}

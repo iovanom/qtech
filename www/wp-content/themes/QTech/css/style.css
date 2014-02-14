@@ -181,18 +181,16 @@ div.logo p {
 
 .footer-box h4 {
 	color: #fff;
-	font-size: 22px;
+	font-size: 20px;
+	margin-bottom: 0;
 }
 
 h5.creator {
 	
 	color: #fff;
-	position: fixed;
-	z-index: 500;
-	bottom: 0;
-	left: 5px;
-	font-size: 10px;
-		
+	margin: 0;
+	font-size: 8px;
+	font-weight: normal;	
 }
 
 h5.creator a{
