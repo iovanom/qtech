@@ -24,7 +24,7 @@
                                     ?>
                                     <p><?php the_excerpt(); ?></p>
                                     <a href="<?php the_permalink(); ?>" class="more-link">Подробнее</a>
-                                    
+                                    <div style="clear: both;"></div>
                                 </div>
                                         <?php endwhile;?>
                                         <?php endif; ?>

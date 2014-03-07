@@ -1,26 +1,33 @@
 <?php get_header() ?>
+                <?php if(preg_match('/(?i)msie /',$_SERVER['HTTP_USER_AGENT'])){?>
+
+                <div class="">
+                    <div class="" > <img src="<?php echo get_template_directory_uri(); ?>/img/Banere/2baner_pardoseli_industiale.png" alt=""></div>
+                </div>
+                <?php }else{ ?>
+                
+               
                <div id="stage-0" class="stage stage-960x300">
                   <div style="visibility: visible;" class="slides">
-                     <div style="z-index: 1; display: none;" id="slide-0-0" class="slide"><img src="<?php echo get_template_directory_uri(); ?>/img/Banere/1 baner_decorativnij_pol_foto.png" alt=""></div>
-                     <div style="display: none;" id="slide-0-1" class="slide" > <img src="<?php echo get_template_directory_uri(); ?>/img/Banere/2 baner_decorativnij_pol_s_uzorom_foto.png" alt=""></div>
-                     <div style="display: none;" id="slide-0-2" class="slide"><img src="<?php echo get_template_directory_uri(); ?>/img/Banere/4 baner_nalivnoi_pol_dlea_sklada.png" alt=""></div>
-                     <div style="display: block;" id="slide-0-4" class="slide bg"><img src="<?php echo get_template_directory_uri(); ?>/img/Banere/5 baner_pol_dlea_garaja_poadea_pentru_garaj_foto.png" alt=""></div>
-                     <div style="display: block;" id="slide-0-5" class="slide fg"><img src="<?php echo get_template_directory_uri(); ?>/img/Banere/6 baner_podele_decorative_moldova_foto.png" alt=""></div>
-                     <div style="display: none;" id="slide-0-6" class="slide"><img src="<?php echo get_template_directory_uri(); ?>/img/Banere/7 baner_pol_dlea_detskih_sadov_i_shkol_foto.png" alt=""></div>
-                     <div style="display: none;" id="slide-0-7" class="slide"><img src="<?php echo get_template_directory_uri(); ?>/img/Banere/8 baner_nalivnoj_3d_pol_foto.png" alt=""></div>
-                     <div style="display: none;" id="slide-0-8" class="slide"><img src="<?php echo get_template_directory_uri(); ?>/img/Banere/9 baner_pali_v_kvartire_foto.png" alt=""></div>
-                     <div style="display: none;" id="slide-0-9" class="slide"><img src="<?php echo get_template_directory_uri(); ?>/img/Banere/10 baner_decorativnie_epoxidnie_poli_md_foto.png" alt=""></div>
-                     <div style="display: none;" id="slide-0-10" class="slide"><img src="<?php echo get_template_directory_uri(); ?>/img/Banere/11 baner_pardoseli_industiale.png" alt=""></div>
-                     <div style="display: none;" id="slide-0-3" class="slide"><img src="<?php echo get_template_directory_uri(); ?>/img/Banere/61 baner_pardoseli_pentru_parcari_parkinghi_parkovki_foto.png" alt=""></div>
+                     <div style="z-index: 1; display: none;" id="slide-0-0" class="slide"><img src="<?php echo get_template_directory_uri(); ?>/img/Banere/1baner_decorativnij_pol_foto.png" alt=""></div>
+                     <div style="display: block;" id="slide-0-1" class="slide" > <img src="<?php echo get_template_directory_uri(); ?>/img/Banere/2baner_pardoseli_industiale.png" alt=""></div>
+                     <div style="display: none;" id="slide-0-2" class="slide"><img src="<?php echo get_template_directory_uri(); ?>/img/Banere/3baner_pol_dlea_garaja_poadea_pentru_garaj_foto.png" alt=""></div>
+                     <div style="display: none;" id="slide-0-4" class="slide"><img src="<?php echo get_template_directory_uri(); ?>/img/Banere/4baner_podele_decorative_moldova_foto.png" alt=""></div>
+                     <div style="display: none;" id="slide-0-5" class="slide"><img src="<?php echo get_template_directory_uri(); ?>/img/Banere/5baner_pol_dlea_detskih_sadov_i_shkol_foto.png" alt=""></div>
+                     <div style="display: none;" id="slide-0-6" class="slide"><img src="<?php echo get_template_directory_uri(); ?>/img/Banere/6baner_pardoseli_pentru_parcari_parkinghi_parkovki_foto.png" alt=""></div>
+                     <div style="display: none;" id="slide-0-7" class="slide"><img src="<?php echo get_template_directory_uri(); ?>/img/Banere/7baner_nalivnoj_3d_pol_foto.png" alt=""></div>
+                     <div style="display: none;" id="slide-0-8" class="slide"><img src="<?php echo get_template_directory_uri(); ?>/img/Banere/8baner_nalivnoi_pol_dlea_sklada.png" alt=""></div>
+                     <div style="display: none;" id="slide-0-9" class="slide"><img src="<?php echo get_template_directory_uri(); ?>/img/Banere/9baner_pali_v_kvartire_foto.png" alt=""></div>
+                     <div style="display: none;" id="slide-0-3" class="slide"><img src="<?php echo get_template_directory_uri(); ?>/img/Banere/10baner_decorativnie_epoxidnie_poli_md_foto.png" alt=""></div>
                   </div>
                   <div style="visibility: visible; display: block;" class="nav-stage">
                      <ul>
                         <li class="" id="item-0-0">&nbsp;</li>
-                        <li class="" id="item-0-1">&nbsp;</li>
+                        <li class="active" id="item-0-1">&nbsp;</li>
                         <li class="" id="item-0-2">&nbsp;</li>
                         <li class="" id="item-0-3">&nbsp;</li>
                         <li class="" id="item-0-4">&nbsp;</li>
-                        <li class="active" id="item-0-5">&nbsp;</li>
+                        <li  id="item-0-5">&nbsp;</li>
                         <li id="item-0-6">&nbsp;</li>
                         <li id="item-0-7">&nbsp;</li>
                         <li id="item-0-8">&nbsp;</li>
@@ -29,17 +36,18 @@
                      </ul>
                   </div>
                </div>
+                <?php } ?>
                   <!-- ###INHALT### -->
                   
                   <div  class="box-container">
                     <div class="box-text">
-                        <h3>Промышленные полы</h3>
+                        <a href="<?php echo get_permalink( 16 ); ?>"><h3>Промышленные полы</h3></a>
                         <div class="body">
                            
-                              <div class="img"><a href="#" target="_blank"><img src="<?php echo get_template_directory_uri(); ?>/img/poza_reprez.jpg" alt="" border="0" height="105" width="130"></a></div>
+                              <div class="img"><a href="<?php echo get_permalink( 16 ); ?>" target="_blank"><img src="<?php echo get_template_directory_uri(); ?>/img/poza_reprez.jpg" alt="" border="0" height="105" width="130"></a></div>
                               <div style="height: 200px;" class="copy">
                                  <p>
-                                 	Полимерные промышленные полы, изготовленные на основе полиуретановой или эпоксидной смолы  Область применения наливных полимерных полов чрезвычайно широка. Складские помещения ,производственные помещения, холодильные и морозильные камеры, медицинская промышленность, спортивные сооружения, производства электроники и  высокоточной аппаратуры, редприятия пищевой промышленности и т.д.
+                                 	Полимерные промышленные полы, изготовленные на основе полиуретановой или эпоксидной смолы. Область применения наливных полимерных полов чрезвычайно широка. Складские помещения ,производственные помещения, холодильные и морозильные камеры, медицинская промышленность, спортивные сооружения, производства электроники и  высокоточной аппаратуры, редприятия пищевой промышленности и т.д.
                                  </p>
                                  <a href="<?php echo get_permalink( 16 ); ?>" class="more" >Подробнее</a>
                               </div>
@@ -47,10 +55,10 @@
                         </div>
                		</div>
                      <div class="box-text" style=" margin-right: 0; float: right;">
-                        <h3>Декоравтивные полы</h3>
+                         <a href="<?php echo get_permalink( 31 ); ?>"><h3>Декоравтивные полы</h3></a>
                         <div class="body">
                            
-                              <div class="img"><a href="#" target="_blank"><img src="<?php echo get_template_directory_uri(); ?>/img/poza_reprez2.jpg" alt="" border="0" height="105" width="130"></a></div>
+                              <div class="img"><a href="<?php echo get_permalink( 31 ); ?>" target="_blank"><img src="<?php echo get_template_directory_uri(); ?>/img/poza_reprez2.jpg" alt="" border="0" height="105" width="130"></a></div>
                               <div style="height: 200px;" class="copy">
                                  <p>
                                  	Предлагаем вашему вниманию ультра модную изюминку, любого современного и изысканного интерьера, полимерные полы. При помощи данной технологии мы можем воплотить в жизнь самый смелый эскиз, самого экстравагантного дизайнера, без отклонения от замысла создателя.

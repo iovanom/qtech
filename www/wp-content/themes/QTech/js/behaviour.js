@@ -743,15 +743,7 @@ $(document).ready(
 		
 		$('body#page12256').parent().css('background-attachment','scroll');
 		
-		$(".layercontent").fancybox({
-	        'width'             : 680,
-                'height'            : 480,
-	        'autoScale'         : false,
-                'transitionIn'      : 'none',
-        	'transitionOut'     : 'none',
-	        'type'              : 'iframe',
-	        'titleShow'         : false
-    	});
+		
     
 		
 }

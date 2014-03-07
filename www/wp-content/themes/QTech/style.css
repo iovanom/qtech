@@ -90,7 +90,7 @@ Text Domain:
 }
 
 .cat-1col {
-    
+    height: 100%;
     margin-bottom: 25px;
     margin-right: 25px;
 }
@@ -123,4 +123,12 @@ Text Domain:
 .page-content li {
     padding-bottom: 8px;
     list-style: circle;
+}
+
+.footer .footer-box h3 {
+    color: #fff;
+    font-size: 9px;
+    text-align: center;
+    padding: 0;
+    width: 100%;
 }

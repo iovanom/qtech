@@ -23,4 +23,16 @@
         </div>
         <div class="bottom">&nbsp;</div>
      </div>
+    
+    <div class="box box-matrix">
+        <div class="top">&nbsp;</div>
+        <div class="body">
+           
+                <h3>Цветовая палитра</h3>
+                 
+                <a href="<?php echo get_template_directory_uri(); ?>/fuxradMaterial/colorPalet/Original_ral_table.jpg" target="_blank" class="bullet" style="display: block; width: 100%; text-align: center; padding: 0;"><img src="<?php echo get_template_directory_uri(); ?>/fuxradMaterial/colorPalet/Gama_de_culori.png" width="150"/></a>
+        </div>
+        <div class="bottom">&nbsp;</div>
+     </div>
+    
 </div>

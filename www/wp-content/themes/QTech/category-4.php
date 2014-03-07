@@ -1,7 +1,10 @@
 <?php get_header(); ?>
 
 <div class="content two-cols" style="padding-top: 25px;">
-	<?php get_sidebar(); ?>
+	<?php 
+            $flagCat = true;
+            get_sidebar(); 
+        ?>
 	<div class="col col-2" >
 		<div class="box">
                         <div id="box-header">
@@ -15,13 +18,16 @@
 			<div class="body">
                             <div id="content">
                                         <?php if(have_posts()) : while(have_posts()) : the_post()?>
-                                <div class="cat-3col">
+                                <div class="cat-1col">
                                     
+                                    <a href="<?php the_permalink();?>"><h2><?php the_title(); ?></h2></a>
                                     <?php if ( has_post_thumbnail() ) {
                                                 the_post_thumbnail();
                                             }
                                     ?>
-                                    <a href="<?php the_permalink();?>"><h2><?php the_title(); ?></h2></a>
+                                    <p><?php the_excerpt(); ?></p>
+                                    <a href="<?php the_permalink(); ?>" class="more-link">Подробнее</a>
+                                    <div style="clear: both;"></div>
                                 </div>
                                         <?php endwhile;?>
                                         <?php endif; ?>

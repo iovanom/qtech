@@ -380,7 +380,7 @@ background-image:url(../img/bg/stage-960x500.png);
 .stage-960x300 {
 height:300px;
 width:960px;
-background-image:url(../img/bg/stage-960x300.png);
+/*background-image:url(../img/bg/stage-960x300.png);*/
 }
 
 .stage-960x200 {
@@ -2501,7 +2501,7 @@ left:0;
 background:url(../img/bg/footer.png) repeat-x 0 0;
 width:100%;
 z-index:200;
-height:40px;
+height:80px;
 padding:8px 0 0;
 }
 
